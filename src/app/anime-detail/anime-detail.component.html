@@ -1,0 +1,13 @@
+<div class="anime-card">
+    <h2 class="anime-card-header">{{ anime.title }}</h2>
+    <img class="anime-card-image" [src]="anime.image" [alt]="anime.title" />
+    <div class="anime-card-body">
+        <p class="anime-card-text"><strong>Genre:</strong> {{ anime.genre.join(', ') }}</p>
+        <p class="anime-card-text"><strong>Release Year:</strong> {{ anime.releaseYear }}</p>
+        <p class="anime-card-text"><strong>Seasons:</strong> {{ anime.seasons }}</p>
+        <p class="anime-card-text"><strong>Rating:</strong> {{ anime.rating }} / 10</p>
+        <p class="anime-card-text"><strong>Description:</strong> {{ anime.description }}</p>
+        <p class="anime-card-text"><strong>Main Characters:</strong> {{ anime.mainCharacters.join(', ') }}</p>
+        <p class="anime-card-text"><strong>Studio:</strong> {{ anime.studio }}</p>
+    </div>
+</div>

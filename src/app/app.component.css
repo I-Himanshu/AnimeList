@@ -1,0 +1,38 @@
+.anime-list-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .anime-list-controls button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .anime-list-controls button:hover:not([disabled]) {
+    background-color: #0056b3;
+  }
+  
+  .anime-list-controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .anime-list-count {
+    font-size: 18px;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .anime-list-increment, .anime-list-decrement {
+    outline: none;
+  }
+  
